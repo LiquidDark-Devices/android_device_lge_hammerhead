@@ -16,5 +16,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_hammerhead.mk \
-    $(LOCAL_DIR)/nitrogen_hammerhead.mk \
+    $(LOCAL_DIR)/liquid_hammerhead.mk \
     $(LOCAL_DIR)/full_hammerhead.mk

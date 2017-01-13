@@ -1,0 +1,17 @@
+[
+ {
+   "repository":  "nitrogen-os-devices/android_kernel_lge_hammerhead",
+   "target_path": "kernel/lge/hammerhead",
+   "branch":      "n2"
+ },
+ {
+   "repository":  "nitrogen-os-devices/android_vendor_lge_hammerhead",
+   "target_path": "vendor/lge/hammerhead",
+   "branch":      "n2"
+ },
+ {
+   "repository":  "nitrogen-project/android_hardware_qcom_msm8x74",
+   "target_path": "hardware/qcom/msm8x74",
+   "branch":      "n2"
+ }
+]
