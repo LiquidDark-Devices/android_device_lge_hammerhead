@@ -29,7 +29,7 @@ BOARD_KERNEL_CMDLINE := console=none,115200,n8 androidboot.hardware=hammerhead u
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
